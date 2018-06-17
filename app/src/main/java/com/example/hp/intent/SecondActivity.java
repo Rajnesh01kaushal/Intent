@@ -17,7 +17,7 @@ public abstract class SecondActivity extends AppCompatActivity implements View.O
         myButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myActivity = new Intent(MainActivity.this,SecondActivity.class);
+                Intent myActivity = new Intent(SecondActivity.this,MainActivity.class);
                 startActivity(myActivity);
             }
         });
